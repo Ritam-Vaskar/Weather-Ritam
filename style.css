@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-1442849073-648c673408c0f.jpg?resize=1200:*);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+    border: #333 2px solid;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+input {
+    padding: 8px;
+    margin: 8px;
+}
+
+label{
+    font-weight: bolder;
+    color: rgb(149, 0, 255);
+    
+}
+
+button {
+    padding: 8px;
+    background-color: #270e3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6414dc;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
